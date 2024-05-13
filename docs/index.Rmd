@@ -10,7 +10,7 @@ output:
     code_folding: show
 ---
 
-# Introduction
+# Introduction: add one tiny change
 
 This workshop will provide you with an introduction to manipulating raster spatial data using the R package `terra`. `terra` and its predecessor, `raster` are widely used for spatial data manipulation in R. No prior experience of spatial data is assumed, but this short workshop will not have time to delve into some important aspects of spatial data such as projections. 
 
