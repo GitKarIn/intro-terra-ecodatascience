@@ -1,4 +1,4 @@
-#preparation of data for the intro to rasters in terra workshop: tiny change
+#preparation of data for the intro to rasters in terra workshop: another tiny change
 library(terra)
 
 #extent of GBR found from the Great Barrier Reef Marine Park boundary, downloaded from: https://geohub-gbrmpa.hub.arcgis.com/datasets/bac38dff14ae4ff9a1c9de5d234e26f8_30/explore
