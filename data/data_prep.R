@@ -66,7 +66,10 @@ time(gbr_daily_temp) <- NULL
 writeRaster(gbr_daily_temp, "data/gbr_daily_temp.tif", overwrite = T)
 
 #create monthly mean temp geotiff
-gbr_monthly_temp <- tapp(gbr_daily_temp, index = "yearmonths", fun = mean)
+
+
+### Got this far ###
+gbr_monthly_temp <- tapp(gbr_daily_temp, index = "yearmonths", fun = mean)  #Error message: [tapp] x has no time data
 
 writeRaster(gbr_monthly_temp, "data/gbr_monthly_temp.tif")
 
